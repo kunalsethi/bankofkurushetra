@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/activity_balance" android:background="@drawable/tumblr" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <TextView android:textSize="20dp" android:textColor="#ffffff" android:textColorHint="#141119" android:id="@+id/t1" android:paddingLeft="0dp" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4401" android:layout_marginTop="0dp" android:text="Check Balance:" />
+            <Spinner android:orientation="horizontal" android:id="@+id/spinner" android:background="@drawable/spinner_background" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginTop="10dp" android:layout_weight="2.8" android:layout_below="@+id/btn_add" android:layout_alignParentLeft="true" />
+            <TableLayout android:id="@+id/balanceSheet" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp">
+                <TableRow>
+                    <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="#ffffff" android:paddingTop="10dp" android:layout_width="UNKNOWN_DATA_0x8c01" android:layout_height="wrap_content" android:layout_column="1" android:text="Account Type:" />
+                    <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="#ffffff" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="10dp" android:layout_width="UNKNOWN_DATA_0x8c01" android:layout_height="wrap_content" android:layout_column="2" android:text="Saving" />
+                </TableRow>
+                <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="#ffffff" android:paddingTop="10dp" android:layout_width="UNKNOWN_DATA_0x8c01" android:layout_height="wrap_content" android:layout_column="1" android:text="Account Number:" />
+                    <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="#ffffff" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/t2" android:paddingLeft="0dp" android:paddingTop="10dp" android:layout_width="UNKNOWN_DATA_0x8c01" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_column="2" />
+                </TableRow>
+                <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="#ffffff" android:paddingTop="10dp" android:layout_width="UNKNOWN_DATA_0x8c01" android:layout_height="wrap_content" android:layout_column="1" android:text="Balance:" />
+                    <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="#ffffff" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/t3" android:paddingLeft="0dp" android:paddingTop="10dp" android:layout_width="UNKNOWN_DATA_0x8c01" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_column="2" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

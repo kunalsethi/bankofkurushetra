@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@+id/activity_scndpage" app:background="@drawable/tumblr" app:layout_width="wrap_content" app:layout_height="match_parent">
+    <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0xc801" app:layout_height="UNKNOWN_DATA_0x19001" app:layout_marginLeft="225dp" app:layout_marginTop="140dp">
+        <Button app:textColor="#ffffff" app:id="@+id/b1" app:background="@drawable/buttonshape" app:layout_width="UNKNOWN_DATA_0x8801" app:layout_height="UNKNOWN_DATA_0x3201" app:layout_marginRight="10dp" app:text="Login" />
+        <Button app:textColor="#ffffff" app:id="@+id/b3" app:background="@drawable/buttonshape" app:layout_width="UNKNOWN_DATA_0x8801" app:layout_height="UNKNOWN_DATA_0x3201" app:layout_marginTop="20dp" app:text="Registartion" />
+        <Button app:textColor="#ffffff" app:id="@+id/b2" app:background="@drawable/buttonshape" app:layout_width="UNKNOWN_DATA_0x8801" app:layout_height="UNKNOWN_DATA_0x3201" app:layout_marginTop="20dp" app:text="Locate Us" />
+    </LinearLayout>
+    <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x12c01" app:layout_height="UNKNOWN_DATA_0x25801">
+        <ImageView app:id="@+id/im" app:paddingBottom="30dp" app:layout_width="UNKNOWN_DATA_0xf001" app:layout_height="UNKNOWN_DATA_0x22301" app:src="@drawable/man_girl" />
+    </LinearLayout>
+    <LinearLayout app:orientation="horizontal" app:id="@+id/l1" app:background="#008080" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3c01" app:layout_marginTop="5dp" app:layout_alignParentBottom="true">
+        <ImageButton app:id="@+id/b4" app:background="#008080" app:paddingTop="20dp" app:layout_width="UNKNOWN_DATA_0x8201" app:layout_height="wrap_content" app:src="@drawable/ic_no_encryption_black_24dp" />
+        <ImageButton app:id="@+id/b5" app:background="#008080" app:paddingTop="20dp" app:layout_width="UNKNOWN_DATA_0x8201" app:layout_height="wrap_content" app:src="@drawable/ic_settings_phone_black_24dp" app:layout_toRightOf="@+id/imageButton3" />
+        <ImageButton app:id="@+id/b6" app:background="#008080" app:paddingTop="20dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_live_help_black_24dp" app:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

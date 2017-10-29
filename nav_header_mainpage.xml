@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:theme="@style/ThemeOverlay.AppCompat.Dark" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:background="@drawable/side_nav_bar" app:paddingTop="2dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0900a7" app:weightSum="1.0">
+    <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/imageView" app:layout_width="UNKNOWN_DATA_0xb001" app:layout_height="UNKNOWN_DATA_0x3c01" app:layout_marginTop="30dp" app:src="@drawable/logoo4" app:layout_weight="0.72" />
+    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textSize="18sp" app:textColor="#ffffff" app:id="@+id/Tname" app:paddingLeft="20dp" app:paddingTop="10dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="" app:layout_weight="0.2" />
+</LinearLayout>

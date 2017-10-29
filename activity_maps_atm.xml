@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <fragment map:name="com.google.android.gms.maps.SupportMapFragment" map:id="@+id/map" map:layout_width="match_parent" map:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btnAtm" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:text="Nearby ATMs" />
+    </LinearLayout>
+</FrameLayout>

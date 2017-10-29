@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@drawable/tumblr" app:layout_width="match_parent" app:layout_height="match_parent">
+    <TextView app:textSize="25dp" app:textColor="#ffffff" app:id="@+id/o1" app:paddingLeft="16dp" app:layout_width="UNKNOWN_DATA_0xfa01" app:layout_height="UNKNOWN_DATA_0x3c01" app:layout_marginLeft="60dp" app:layout_marginTop="100dp" app:text="Processing your OTP" />
+    <TextView app:textSize="25dp" app:textColor="#ffffff" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/oo" app:paddingLeft="16dp" app:layout_width="UNKNOWN_DATA_0xfa01" app:layout_height="UNKNOWN_DATA_0x3c01" app:layout_marginLeft="50dp" app:layout_marginTop="200dp" />
+    <Button app:textSize="16dp" app:textColor="#ffffff" app:id="@+id/but1" app:background="@drawable/buttonshape" app:layout_width="UNKNOWN_DATA_0x8c01" app:layout_height="UNKNOWN_DATA_0x3c01" app:layout_marginLeft="100dp" app:layout_marginTop="20dp" app:text="Verify" app:layout_below="@+id/oo" />
+</RelativeLayout>

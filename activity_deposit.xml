@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    app:background="@drawable/tumblr"
+    app:layout_width="match_parent"
+    app:layout_height="match_parent">
+    <ScrollView app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginLeft="20dp" app:layout_marginRight="20dp" app:fillViewport="false">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:textSize="20dp" app:textColor="#ffffff" app:textColorHint="#141119" app:id="@id/title" app:paddingLeft="0dp" app:paddingTop="20dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x4401" app:layout_marginTop="0dp" app:text="Deposit Amount:" />
+            <Spinner app:orientation="horizontal" app:id="@+id/spinner" app:background="@drawable/spinner_background" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x2801" app:layout_marginTop="10dp" app:layout_weight="2.8" app:layout_below="@+id/btn_add" app:layout_alignParentLeft="true" />
+            <EditText app:textColorHint="#141119" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/e1" app:background="@drawable/edittextshape" app:paddingLeft="0dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x2801" app:layout_marginLeft="0dp" app:layout_marginTop="20dp" app:hint="Deposit Amount" app:digits="0123456789." app:inputType="textCapWords|number|numberSigned|numberDecimal|numberPassword|phone" app:textCursorDrawable="@drawable/color_cursor" />
+            <EditText app:textColorHint="#141119" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/e2" app:background="@drawable/edittextshape" app:paddingLeft="0dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x2801" app:layout_marginLeft="0dp" app:layout_marginTop="20dp" app:hint="Verify Password" app:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" app:textCursorDrawable="@drawable/color_cursor" />
+            <Button app:textSize="16dp" app:textColor="#ffffff" app:id="@+id/b1" app:background="@drawable/buttonshape" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x2801" app:layout_marginLeft="0dp" app:layout_marginTop="20dp" app:text="Deposit" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
